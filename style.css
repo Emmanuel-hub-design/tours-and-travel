@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f1e5;
+            margin: 0;
+            padding: 0;
+        
+}
+form {
+    max-width: 400px;
+    margin: 0 ;
+    background-color: #e8f1e5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    background-color: #333;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    margin: 20px;
+}
+
+.destination-card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 300px;
+    width: px;
+    text-align: center;
+
+}
+
+
+.destination-card img {
+    height: auto;
+    width: 100%;
+
+
+}
+#contact-form input,
+#contact-form textarea {
+    display: flex;
+    flex:1;
+    width: 100%;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+#booking-form input,
+#booking-form textarea{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+

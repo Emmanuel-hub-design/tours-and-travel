@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BARAKA TRAVEL AND TOURS WEBSITE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+
+    <header>
+        <h1>Welcome to Baraka Travel and Tours Company to Maasai Mara National Park</h1>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+   
+
+    <section id="main-content">
+        <h2>Destination</h2>
+        <div class="destination-card">
+            
+            <img src="89378_maasai_mara_national_reserve_1_1-5.jpg" alt="Maasai Mara">
+            <h3>Maasai Mara in Kenya</h3>
+            <p>Explore the Maasai Mara National Park and get to experience a lifetime memory<br>
+                Masai Mara - Nature's epic safari destination in Kenya
+                The Masai Mara features a <br>stunning kaleidoscope of wild and rugged landscapes, warm and welcoming <br> people and an exciting array of creatures – big and small. World famous <br>for hosting the epic Great Migration, the Masai Mara welcomes 1,5 million wildebeests<br> onto its sprawling savannahs each July through October..</p>
+    
+        </div>
+        <h1>Book Your Tour</h1>
+        <form id="booking-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="destination">Select Destination:</label>
+            <select id="destination" name="destination">
+                <option value="destination1">Maasai Mara</option>
+                <option value="destination2">Destination 2</option>
+                <!-- Add more options as needed -->
+            </select><br><br>
+    
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required><br><br>
+    
+            <button type="submit">Book Now</button>
+        </form>
+
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Contact us!</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button class="submit-button">Submit</button>
+            </form>
+        </section>
+        
+
+
+    </section>
+    <section class="footer">
+        <p>&copy; 2023  Baraka Travel & Tours Website</p>
+    </section>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
